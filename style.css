@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+	background-color: #7A9898;
+	margin: 0px;
+	font-family: "Poiret One";
+}
+.search-panel{
+	background: #ffffff;
+	padding: 50px;
+	margin: auto;
+	margin-top: 200px;
+	width: 550px;
+}
+.search-input, .search-button{
+	font-size: 24px;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,128,255,1);
+	background: rgba(0,128,255,0.05);
+	color: rgba(0,64,128,1);
+}
+.search-button:hover{
+	background: rgba(0,128,255,0.2);
+}
+@media(max-width:800px){
+	.search-panel{
+		width: 360px;
+	}
+}
+#footer{
+	font-size: 12px;
+}
+h1, h2, h3{
+	font-family: "Poiret One", one;
+}
